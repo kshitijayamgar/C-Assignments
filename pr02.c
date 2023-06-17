@@ -1,5 +1,6 @@
 /*What is size_t in C?
 
+
 size_t is an unsigned integer type used to represent the size of any object (including arrays) in the particular implementation. The operator sizeof yields a value of the type size_t. The maximum size of size_t is provided via SIZE_MAX, a macro constant which is defined in the header. size_t is guaranteed to be at least 16 bits wide.
 
 You can use the sizeof operator to obtain the size (in bytes) of the data type of its operand. The operand may be an actual type specifier (such as int or float), as well as any valid expression. When the operand is a type name, it must be enclosed in parentheses.
