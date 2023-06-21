@@ -1,11 +1,6 @@
 /*  In C, a function pointer is a variable that stores the address of a function.
 A function pointer can be used to pass a function as an argument to another function, or to call a function dynamically.
  */
-
-
-
-
-
 #include <stdio.h>
 int add(int x, int y, int z) {
     return x + y +z;
