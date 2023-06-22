@@ -1,10 +1,7 @@
 /* In C language, it is possible to pass a function as a parameter to another function using function pointers.
 
 Here is an example of how to pass a function as a parameter in C */
-
-
 #include <stdio.h>
-
 // Function to add two numbers
 int add(int a, int b) {
     return a + b;
